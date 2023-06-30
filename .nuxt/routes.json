@@ -1,0 +1,37 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/procrastinator/protfolio/nuxtjs-tailwindcss-portfolio/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_2fe2dcb4"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/home/procrastinator/protfolio/nuxtjs-tailwindcss-portfolio/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_75c957f2"
+  },
+  {
+    "name": "projects",
+    "path": "/projects",
+    "component": "/home/procrastinator/protfolio/nuxtjs-tailwindcss-portfolio/pages/projects/index.vue",
+    "chunkName": "pages/projects/index",
+    "_name": "_5638dae6"
+  },
+  {
+    "name": "projects-id",
+    "path": "/projects/:id",
+    "component": "/home/procrastinator/protfolio/nuxtjs-tailwindcss-portfolio/pages/projects/_id.vue",
+    "chunkName": "pages/projects/_id",
+    "_name": "_6fec5ece"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/procrastinator/protfolio/nuxtjs-tailwindcss-portfolio/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4f9ab779"
+  }
+]
