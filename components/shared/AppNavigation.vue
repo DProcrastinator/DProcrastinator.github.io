@@ -77,36 +77,7 @@ export default {
       aria-label="Contact"
       >Contact</NuxtLink
     >
-    <div
-      class="
-        font-general-regular
-        border-t-2
-        pt-3
-        sm:pt-0 sm:border-t-0
-        border-primary-light
-        dark:border-secondary-dark
-      "
-    >
-      <button
-        class="
-          sm:hidden
-          block
-          text-left text-md
-          bg-indigo-500
-          hover:bg-indigo-600
-          text-white
-          shadow-sm
-          rounded-md
-          px-4
-          py-2
-          mt-2
-        "
-        @click="showModal()"
-        aria-label="Hire Me Button"
-      >
-        Hire Me
-      </button>
-    </div>
+
   </div>
 </template>
 

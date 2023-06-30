@@ -23,7 +23,7 @@ export default {
       "
     >
       <!-- Years of experience counter -->
-      <div class="mb-20 sm:mb-0">
+      <div class="mb-20 sm:mb-0 mx-auto">
         <span
           class="
             font-general-medium
@@ -33,66 +33,13 @@ export default {
             dark:text-secondary-light
             mb-2
           "
-          >7+</span
+          >1+</span
         >
         <span class="block text-md text-ternary-dark dark:text-ternary-light"
           >Years of experience</span
         >
       </div>
 
-      <!-- GitHub stars counter -->
-      <div class="mb-20 sm:mb-0">
-        <span
-          class="
-            font-general-medium
-            text-4xl
-            font-bold
-            text-secondary-dark
-            dark:text-secondary-light
-            mb-2
-          "
-          >2k</span
-        >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
-          >Stars on GitHub</span
-        >
-      </div>
-
-      <!-- Positive feedback counter -->
-      <div class="mb-20 sm:mb-0">
-        <span
-          class="
-            font-general-medium
-            text-4xl
-            font-bold
-            text-secondary-dark
-            dark:text-secondary-light
-            mb-2
-          "
-          >32</span
-        >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
-          >Positive feedback</span
-        >
-      </div>
-
-      <!-- Projects completed counter -->
-      <div class="mb-20 sm:mb-0">
-        <span
-          class="
-            font-general-medium
-            text-4xl
-            font-bold
-            text-secondary-dark
-            dark:text-secondary-light
-            mb-2
-          "
-          >77</span
-        >
-        <span class="block text-md text-ternary-dark dark:text-ternary-light"
-          >Projects completed</span
-        >
-      </div>
     </div>
   </div>
 </template>

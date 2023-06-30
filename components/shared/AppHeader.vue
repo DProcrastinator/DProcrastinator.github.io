@@ -58,21 +58,21 @@ export default {
       <div class="flex justify-between items-center px-6 sm:px-0">
         <!-- Header logos -->
         <div>
-          <NuxtLink to="/">
-            <img
-              v-if="this.$colorMode.value == 'dark'"
-              src="~/static/logo-light.svg"
-              class="w-36"
-              alt="Light Logo"
-            />
+<!--          <NuxtLink to="/">-->
+<!--            <img-->
+<!--              v-if="this.$colorMode.value == 'dark'"-->
+<!--              src="~/static/Mano.png"-->
+<!--              class="w-36"-->
+<!--              alt="Light Logo"-->
+<!--            />-->
 
-            <img
-              v-else
-              src="~/static/logo-dark.svg"
-              alt="Color Logo"
-              class="w-36"
-            />
-          </NuxtLink>
+<!--            <img-->
+<!--              v-else-->
+<!--              src="~/static/logo-dark.svg"-->
+<!--              alt="Color Logo"-->
+<!--              class="w-36"-->
+<!--            />-->
+<!--          </NuxtLink>-->
         </div>
 
         <!-- Theme switcher small screen -->

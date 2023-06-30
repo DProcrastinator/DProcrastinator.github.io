@@ -8,17 +8,17 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "New Baneshowr, Kathmandu, Nepal",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "devkotamanohar@gmail.com",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "9861446608",
           icon: "phone",
         },
       ],
