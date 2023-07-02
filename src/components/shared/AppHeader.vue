@@ -58,21 +58,21 @@ export default {
       <div class="flex justify-between items-center px-6 sm:px-0">
         <!-- Header logos -->
         <div>
-<!--          <NuxtLink to="/">-->
-<!--            <img-->
-<!--              v-if="this.$colorMode.value == 'dark'"-->
-<!--              src="~/static/Mano.png"-->
-<!--              class="w-36"-->
-<!--              alt="Light Logo"-->
-<!--            />-->
+          <NuxtLink to="/">
+            <img
+              v-if="this.$colorMode.value == 'dark'"
+              src="~/static/manoDark.svg"
+              class="w-36"
+              alt="Light Logo"
+            />
 
-<!--            <img-->
-<!--              v-else-->
-<!--              src="~/static/logo-dark.svg"-->
-<!--              alt="Color Logo"-->
-<!--              class="w-36"-->
-<!--            />-->
-<!--          </NuxtLink>-->
+            <img
+              v-else
+              src="~/static/mano1.svg"
+              alt="Color Logo"
+              class="w-36"
+            />
+          </NuxtLink>
         </div>
 
         <!-- Theme switcher small screen -->
@@ -181,24 +181,7 @@ export default {
         class="hidden sm:flex justify-between items-center flex-col md:flex-row"
       >
         <!-- Hire me button -->
-        <div class="font-general-medium hidden md:block">
-          <button
-            class="
-              text-md
-              bg-indigo-500
-              hover:bg-indigo-600
-              text-white
-              shadow-sm
-              rounded-md
-              px-5
-              py-2.5
-            "
-            @click="showModal()"
-            aria-label="Hire Me Button"
-          >
-            Hire Me
-          </button>
-        </div>
+
 
         <!-- Theme switcher large screen -->
         <button
