@@ -68,7 +68,7 @@ export default {
 
             <img
               v-else
-              src="~/static/mano1.svg"
+              src="~/static/manologo.svg"
               alt="Color Logo"
               class="w-36"
             />
